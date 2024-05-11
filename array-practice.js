@@ -1,38 +1,40 @@
 const findMinimum = arr => {
-
-  // Your code here 
-
+  if(arr.length === 0){
+    return undefined
+  }else{
+    return Math.min(...arr)
+  }
 };
 
 const runningSum = arr => {
 
-  // Your code here 
+  // Your code here
 };
 
 const evenNumOfChars = arr => {
 
-  // Your code here 
+  // Your code here
 };
 
 const smallerThanCurr = arr => {
 
-  // Your code here 
+  // Your code here
 
 };
 
 const twoSum = (arr, target) => {
 
-  // Your code here 
+  // Your code here
 };
 
 const secondLargest = arr => {
 
-  // Your code here 
+  // Your code here
 };
 
 const shuffle = (arr) => {
 
-  // Your code here 
+  // Your code here
 };
 
 
